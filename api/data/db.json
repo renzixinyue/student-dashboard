@@ -1,1166 +1,437 @@
 {
   "students": [
     {
-      "id": "2407020319",
-      "name": "王冰洋",
+      "id": "2407020329",
+      "name": "张博涵",
       "groupId": 1,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "lxyn03oys",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "yen344gdg",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "o7tteptow",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
     },
     {
       "id": "2403020124",
       "name": "温博宇",
       "groupId": 2,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "k7a73lhrh",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "c43qgv4uu",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "6f6qrw41z",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
     },
     {
-      "id": "2407020306",
-      "name": "菅晋源",
+      "id": "2407020304",
+      "name": "郭浩远",
       "groupId": 3,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "wvzb95g3y",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "xulhisc0b",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "b6wahj1xs",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020333",
-      "name": "赵青松",
-      "groupId": 4,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "6umukwmp2",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "yfj5q1wm2",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "2yf1uicoo",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020320",
-      "name": "王超",
-      "groupId": 5,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "m1u6twrqw",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "b5egsrrdc",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "gyrw0hfi4",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020329",
-      "name": "张博涵",
-      "groupId": 6,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "icu4lmimz",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "h5okfnzj4",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "e99d951jn",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020307",
-      "name": "刘映棋",
-      "groupId": 1,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "x1w93grxo",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "2q2a66obk",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "9m6mp3ohk",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020322",
-      "name": "吴嘉宇",
-      "groupId": 2,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "xrmlu5xvg",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "dkp2qz4k2",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "nm86i8pw8",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2401020112",
-      "name": "高舸扬",
-      "groupId": 3,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "hwmp5id1k",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "ox1ll5ile",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "vdqvfh7ld",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020331",
-      "name": "张凌瑄",
-      "groupId": 4,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "myfrv29vu",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "ete8to0ke",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "4qlv1ul2z",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020327",
-      "name": "杨宏伟",
-      "groupId": 5,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "3f1i08qxu",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "i9sol8ska",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "644rc9ei8",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020334",
-      "name": "朱旭彬",
-      "groupId": 6,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "n9ylhubvs",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "1tssrd0ku",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "vy0qeelko",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2401040126",
-      "name": "邬照宇",
-      "groupId": 1,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "c24kyguuu",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "pmnsq55s9",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "wd4bxbr81",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020308",
-      "name": "芦兴康",
-      "groupId": 2,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "cwjxl2l3i",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "7dv0xfunk",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "hro4bix8y",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020323",
-      "name": "郗响洋",
-      "groupId": 3,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "sff343pfb",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "6yq5mtx3s",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "4vf7kdktb",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
     },
     {
       "id": "2407020301",
       "name": "陈博轩",
       "groupId": 4,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "o2hu0yrkl",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "nsh5vcoox",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "zqpzkceyl",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020325",
-      "name": "薛凯勋",
-      "groupId": 5,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "pz8c0vt8u",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "gkoc5wc41",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "cjzpslbjp",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020316",
-      "name": "秦兴宇",
-      "groupId": 6,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "05gt7ekt0",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "4dz89w3fd",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "7vok6vgm8",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020302",
-      "name": "初玉龙",
-      "groupId": 1,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "e7xg2ni6u",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "1yz4mjj0e",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "x0r3cbstg",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020304",
-      "name": "郭浩远",
-      "groupId": 2,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "2j8g93gvg",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "l1qb3lvj7",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "nk825xc9d",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020311",
-      "name": "马鹤宁",
-      "groupId": 3,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "jmt9ysabo",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "j2q68ahwp",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "ui9foegn5",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
     },
     {
       "id": "2404010103",
       "name": "白宇轩",
-      "groupId": 4,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "zl075salw",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "93t188guw",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "g9nzhtl0e",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020321",
-      "name": "王柯皓",
       "groupId": 5,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "vplkmjeba",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "47hjsyebb",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "huxuyxmpe",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
     },
     {
-      "id": "2407020328",
-      "name": "张宝中",
+      "id": "2407020327",
+      "name": "杨宏伟",
       "groupId": 6,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "z91wsgrv2",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "s0x6oun99",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "2h13ymek2",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
     },
     {
-      "id": "2407020309",
-      "name": "鲁子桢",
+      "id": "2407020307",
+      "name": "刘映棋",
       "groupId": 1,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "yfqmr08gl",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "pmmwj0sgt",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "dzi7766my",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
     },
     {
-      "id": "2407020318",
-      "name": "田绍暄",
+      "id": "2407020323",
+      "name": "郗响洋",
       "groupId": 2,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "b1r92a4tf",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "5iodh97eg",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "sa2sp749q",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020330",
-      "name": "张浩东",
-      "groupId": 3,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "ch42gi30v",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "xbpxkakia",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "1u530epfs",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
     },
     {
       "id": "2407020313",
       "name": "乔冉阳",
-      "groupId": 4,
-      "score": 12,
+      "groupId": 3,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "58910eqz4",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "cndy60gzj",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "9r04rtyta",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
+    },
+    {
+      "id": "2407020310",
+      "name": "栾添",
+      "groupId": 4,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
     },
     {
       "id": "2407020314",
       "name": "乔志轩",
       "groupId": 5,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "wcq8mzvpy",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "575eod6pu",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "uvr675z6r",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
-    },
-    {
-      "id": "2407020303",
-      "name": "高嘉禹",
-      "groupId": 6,
-      "score": 12,
-      "attendance": {
-        "present": 1,
-        "absent": 0,
-        "late": 0
-      },
-      "history": [
-        {
-          "id": "6ma3vwn3d",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "hr5sokci5",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "7jw3rkmx1",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
     },
     {
       "id": "2407020324",
       "name": "许雄峰",
-      "groupId": 1,
-      "score": 12,
+      "groupId": 6,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "e9ph8hs4q",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "nyc7hrwo3",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "fgxjds8tl",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
+    },
+    {
+      "id": "2407020308",
+      "name": "芦兴康",
+      "groupId": 1,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2401040126",
+      "name": "邬照宇",
+      "groupId": 2,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020326",
+      "name": "阎佳华",
+      "groupId": 3,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020316",
+      "name": "秦兴宇",
+      "groupId": 4,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020334",
+      "name": "朱旭彬",
+      "groupId": 5,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020330",
+      "name": "张浩东",
+      "groupId": 6,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020333",
+      "name": "赵青松",
+      "groupId": 1,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020309",
+      "name": "鲁子桢",
+      "groupId": 2,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020325",
+      "name": "薛凯勋",
+      "groupId": 3,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020302",
+      "name": "初玉龙",
+      "groupId": 4,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020306",
+      "name": "菅晋源",
+      "groupId": 5,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020319",
+      "name": "王冰洋",
+      "groupId": 6,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020321",
+      "name": "王柯皓",
+      "groupId": 1,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
     },
     {
       "id": "2407020315",
       "name": "秦朔",
       "groupId": 2,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "ugfwexjen",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "o2s0oz5jk",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "mpfdga35j",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
     },
     {
-      "id": "2407020310",
-      "name": "栾添",
+      "id": "2407020328",
+      "name": "张宝中",
       "groupId": 3,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "l6nq8fp0p",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "mq82y4ajb",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "is9jrvx1p",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
     },
     {
-      "id": "2407020326",
-      "name": "阎佳华",
+      "id": "2407020311",
+      "name": "马鹤宁",
       "groupId": 4,
-      "score": 12,
+      "score": 0,
       "attendance": {
-        "present": 1,
+        "present": 0,
         "absent": 0,
         "late": 0
       },
-      "history": [
-        {
-          "id": "jhpsvfatm",
-          "timestamp": 1772466112135,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        },
-        {
-          "id": "pp5nviuqq",
-          "timestamp": 1772466220137,
-          "action": "start_class",
-          "scoreChange": 4,
-          "reason": "开课签到"
-        },
-        {
-          "id": "gf4rc578h",
-          "timestamp": 1772466237799,
-          "action": "task_complete",
-          "scoreChange": 4,
-          "reason": "实训任务: 金属材料及热处理"
-        }
-      ]
+      "history": []
+    },
+    {
+      "id": "2407020320",
+      "name": "王超",
+      "groupId": 5,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020303",
+      "name": "高嘉禹",
+      "groupId": 6,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020322",
+      "name": "吴嘉宇",
+      "groupId": 1,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020331",
+      "name": "张凌瑄",
+      "groupId": 2,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2407020318",
+      "name": "田绍暄",
+      "groupId": 3,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "2401020112",
+      "name": "高舸扬",
+      "groupId": 4,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "9999000001",
+      "name": "虚拟生01",
+      "groupId": 5,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
+    },
+    {
+      "id": "9999000002",
+      "name": "虚拟生02",
+      "groupId": 6,
+      "score": 0,
+      "attendance": {
+        "present": 0,
+        "absent": 0,
+        "late": 0
+      },
+      "history": []
     }
   ],
-  "sessions": [
-    {
-      "id": "1772466220137",
-      "timestamp": 1772466220137
-    }
-  ]
+  "sessions": []
 }
