@@ -4,434 +4,748 @@
       "id": "2407020329",
       "name": "张博涵",
       "groupId": 1,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "ax29iilqd",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2403020124",
       "name": "温博宇",
       "groupId": 2,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "bwdyjx9f9",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020304",
       "name": "郭浩远",
       "groupId": 3,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "tfaiycg34",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020301",
       "name": "陈博轩",
       "groupId": 4,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "tmnqu1p2f",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2404010103",
       "name": "白宇轩",
       "groupId": 5,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "iuhyvvzdo",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020327",
       "name": "杨宏伟",
       "groupId": 6,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "sk8bx42yj",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020307",
       "name": "刘映棋",
       "groupId": 1,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "ivxofu4gd",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020323",
       "name": "郗响洋",
       "groupId": 2,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "dzhp0519s",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020313",
       "name": "乔冉阳",
       "groupId": 3,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "706261q1k",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020310",
       "name": "栾添",
       "groupId": 4,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "8q26r8dj1",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020314",
       "name": "乔志轩",
       "groupId": 5,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "t8fmitlr9",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020324",
       "name": "许雄峰",
       "groupId": 6,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "f4ydp30ji",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020308",
       "name": "芦兴康",
       "groupId": 1,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "6cil4weqy",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2401040126",
       "name": "邬照宇",
       "groupId": 2,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "th3cjq0ra",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020326",
       "name": "阎佳华",
       "groupId": 3,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "gcpj8n52j",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020316",
       "name": "秦兴宇",
       "groupId": 4,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "mllkgqul6",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020334",
       "name": "朱旭彬",
       "groupId": 5,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "60vrmdsuc",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020330",
       "name": "张浩东",
       "groupId": 6,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "vaeik7exb",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020333",
       "name": "赵青松",
       "groupId": 1,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "hvkmfrbjt",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020309",
       "name": "鲁子桢",
       "groupId": 2,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "y9e7r42lg",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020325",
       "name": "薛凯勋",
       "groupId": 3,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "96xnwbwgz",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020302",
       "name": "初玉龙",
       "groupId": 4,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "g8l69dcx9",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020306",
       "name": "菅晋源",
       "groupId": 5,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "tqehevv2c",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020319",
       "name": "王冰洋",
       "groupId": 6,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "55gyt8syi",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020321",
       "name": "王柯皓",
       "groupId": 1,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "ent3mxpqs",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020315",
       "name": "秦朔",
       "groupId": 2,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "rrgefubyb",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020328",
       "name": "张宝中",
       "groupId": 3,
-      "score": 0,
+      "score": 3,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "z8lsfamt6",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "pfnwtuf5r",
+          "timestamp": 1772503014095,
+          "action": "manual_update",
+          "scoreChange": -1,
+          "reason": "违纪扣分"
+        }
+      ]
     },
     {
       "id": "2407020311",
       "name": "马鹤宁",
       "groupId": 4,
-      "score": 0,
+      "score": 3,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "1ao0no6if",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ol98uo85g",
+          "timestamp": 1772502980291,
+          "action": "manual_update",
+          "scoreChange": -1,
+          "reason": "违纪扣分"
+        }
+      ]
     },
     {
       "id": "2407020320",
       "name": "王超",
       "groupId": 5,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "mxyqss9dc",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020303",
       "name": "高嘉禹",
       "groupId": 6,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "4qv7gxdd8",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020322",
       "name": "吴嘉宇",
       "groupId": 1,
-      "score": 0,
+      "score": 3,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "zkavyawpm",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "y0iai9qpn",
+          "timestamp": 1772503023327,
+          "action": "manual_update",
+          "scoreChange": -1,
+          "reason": "违纪扣分"
+        }
+      ]
     },
     {
       "id": "2407020331",
       "name": "张凌瑄",
       "groupId": 2,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "n5j1orq29",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2407020318",
       "name": "田绍暄",
       "groupId": 3,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "fnuw1tc9v",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "2401020112",
       "name": "高舸扬",
       "groupId": 4,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "wngamca8u",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "9999000001",
       "name": "虚拟生01",
       "groupId": 5,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "cif4d6z39",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     },
     {
       "id": "9999000002",
       "name": "虚拟生02",
       "groupId": 6,
-      "score": 0,
+      "score": 4,
       "attendance": {
-        "present": 0,
+        "present": 1,
         "absent": 0,
         "late": 0
       },
-      "history": []
+      "history": [
+        {
+          "id": "0xd5pp3dh",
+          "timestamp": 1772502921824,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        }
+      ]
     }
   ],
-  "sessions": []
+  "sessions": [
+    {
+      "id": "1772502921824",
+      "timestamp": 1772502921824
+    }
+  ]
 }
