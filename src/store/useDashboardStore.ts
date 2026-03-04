@@ -52,10 +52,13 @@ export const useDashboardStore = create<DashboardState>((set, get) => ({
     set({ loading: true });
     try {
       const res = await fetch(`${API_URL}/data`);
+      if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
       const data = await res.json();
       set({ data });
     } catch (e) {
-      console.error(e);
+      console.error("Failed to fetch data:", e);
+      // Initialize with empty data structure on error to avoid infinite loading
+      set({ data: { students: [], sessions: [] } });
     } finally {
       set({ loading: false });
     }
