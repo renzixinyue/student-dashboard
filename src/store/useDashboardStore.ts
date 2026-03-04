@@ -64,43 +64,103 @@ export const useDashboardStore = create<DashboardState>((set, get) => ({
     }
   },
   startClass: async () => {
-    await fetch(`${API_URL}/start-class`, { method: 'POST' });
-    get().fetchData();
+    try {
+      const res = await fetch(`${API_URL}/start-class`, { method: 'POST' });
+      if (!res.ok) throw new Error('Network response was not ok');
+      const result = await res.json();
+      if (result.success && result.db) {
+        set({ data: result.db });
+      } else {
+        get().fetchData();
+      }
+    } catch (e) {
+      console.error("Failed to start class:", e);
+    }
   },
   updateScore: async (target, id, points, reason) => {
-    await fetch(`${API_URL}/update-score`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ target, id, points, reason })
-    });
-    get().fetchData();
+    try {
+      const res = await fetch(`${API_URL}/update-score`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ target, id, points, reason })
+      });
+      if (!res.ok) throw new Error('Network response was not ok');
+      const result = await res.json();
+      if (result.success && result.db) {
+        set({ data: result.db });
+      } else {
+        get().fetchData();
+      }
+    } catch (e) {
+      console.error("Failed to update score:", e);
+    }
   },
   markAttendance: async (studentId, status) => {
-    await fetch(`${API_URL}/attendance`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ studentId, status })
-    });
-    get().fetchData();
+    try {
+      const res = await fetch(`${API_URL}/attendance`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ studentId, status })
+      });
+      if (!res.ok) throw new Error('Network response was not ok');
+      const result = await res.json();
+      if (result.success && result.db) {
+        set({ data: result.db });
+      } else {
+        get().fetchData();
+      }
+    } catch (e) {
+      console.error("Failed to mark attendance:", e);
+    }
   },
   completeTask: async (studentId) => {
-    await fetch(`${API_URL}/task-complete`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ studentId })
-    });
-    get().fetchData();
+    try {
+      const res = await fetch(`${API_URL}/task-complete`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ studentId })
+      });
+      if (!res.ok) throw new Error('Network response was not ok');
+      const result = await res.json();
+      if (result.success && result.db) {
+        set({ data: result.db });
+      } else {
+        get().fetchData();
+      }
+    } catch (e) {
+      console.error("Failed to complete task:", e);
+    }
   },
   completeTaskAll: async (taskName) => {
-    await fetch(`${API_URL}/task-complete-all`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ taskName })
-    });
-    get().fetchData();
+    try {
+      const res = await fetch(`${API_URL}/task-complete-all`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ taskName })
+      });
+      if (!res.ok) throw new Error('Network response was not ok');
+      const result = await res.json();
+      if (result.success && result.db) {
+        set({ data: result.db });
+      } else {
+        get().fetchData();
+      }
+    } catch (e) {
+      console.error("Failed to complete task for all:", e);
+    }
   },
   resetSystem: async () => {
-    await fetch(`${API_URL}/reset`, { method: 'POST' });
-    get().fetchData();
+    try {
+      const res = await fetch(`${API_URL}/reset`, { method: 'POST' });
+      if (!res.ok) throw new Error('Network response was not ok');
+      const result = await res.json();
+      if (result.success && result.db) {
+        set({ data: result.db });
+      } else {
+        get().fetchData();
+      }
+    } catch (e) {
+      console.error("Failed to reset system:", e);
+    }
   }
 }));
