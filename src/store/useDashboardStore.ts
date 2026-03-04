@@ -43,7 +43,7 @@ interface DashboardState {
   resetSystem: () => Promise<void>;
 }
 
-const API_URL = 'http://localhost:3001/api/dashboard';
+const API_URL = import.meta.env.VITE_API_URL || '/api/dashboard';
 
 export const useDashboardStore = create<DashboardState>((set, get) => ({
   data: null,
