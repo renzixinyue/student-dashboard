@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
+import { supabase } from './supabaseClient.js';
 
-const DB_PATH = path.join(process.cwd(), 'api', 'data', 'db.json');
 const STUDENTS_SOURCE = path.join(process.cwd(), 'src', 'data', 'students.json');
 
 export interface LogEntry {
@@ -35,20 +35,13 @@ export interface DB {
   sessions: Session[];
 }
 
-function seed(): DB {
+function generateSeedData(): DB {
   try {
     const raw = fs.readFileSync(STUDENTS_SOURCE, 'utf-8');
     const sourceData = JSON.parse(raw);
     
     // Shuffle
     const shuffled = sourceData.sort(() => 0.5 - Math.random());
-    
-    // Assign to 6 groups using modulo
-    // We want to ensure 虚拟生01 is in Group 5 and 虚拟生02 is in Group 6 if they exist.
-    // Or simpler: Just rely on modulo if the total count aligns.
-    // Total students = 34 + 2 = 36. 36 % 6 == 0. So each group gets 6 students.
-    // However, the user asked to "Add one virtual student to Group 5 and one to Group 6".
-    // Since shuffling happens, we can't guarantee where they land with simple modulo unless we force it.
     
     const students: Student[] = [];
     const virtualStudents = shuffled.filter((s: any) => s['名字'].startsWith('虚拟生'));
@@ -103,21 +96,112 @@ function seed(): DB {
   }
 }
 
-export const resetDB = (): DB => {
-  const data = seed();
-  saveDB(data);
-  return data;
+export const seedSupabase = async (): Promise<DB> => {
+    const seedData = generateSeedData();
+
+    // Clear existing data (optional, but good for reset)
+    // For resetDB call, we want to clear.
+    // For initial check, we check if empty.
+    
+    // Insert students
+    const studentsPayload = seedData.students.map(s => ({
+        id: s.id,
+        name: s.name,
+        group_id: s.groupId,
+        score: s.score,
+        present: s.attendance.present,
+        absent: s.attendance.absent,
+        late: s.attendance.late
+    }));
+
+    const { error: insertError } = await supabase.from('students').upsert(studentsPayload);
+    if (insertError) {
+        console.error('Error seeding students:', insertError);
+        throw insertError;
+    }
+
+    // Since it's a reset/seed, no logs or sessions to insert initially (empty arrays)
+    
+    return seedData;
 };
 
-export const getDB = (): DB => {
-  if (!fs.existsSync(DB_PATH)) {
-    const data = seed();
-    saveDB(data);
-    return data;
-  }
-  return JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'));
+export const resetDB = async (): Promise<DB> => {
+    // Delete all data
+    await supabase.from('logs').delete().neq('id', '00000000-0000-0000-0000-000000000000'); // Delete all logs
+    await supabase.from('sessions').delete().neq('id', 'dummy'); // Delete all sessions
+    // We can delete students too, or just reset their scores.
+    // To be safe and reshuffle, let's delete students too.
+    await supabase.from('students').delete().neq('id', 'dummy');
+
+    return await seedSupabase();
+};
+
+export const getDB = async (): Promise<DB> => {
+    // Check if students exist
+    const { count, error: countError } = await supabase.from('students').select('*', { count: 'exact', head: true });
+    
+    if (countError) {
+        console.error('Error checking students count:', countError);
+        throw countError;
+    }
+
+    if (count === 0) {
+        return await seedSupabase();
+    }
+
+    // Fetch all data
+    const { data: studentsData, error: studentsError } = await supabase
+        .from('students')
+        .select('*');
+    
+    if (studentsError) throw studentsError;
+
+    const { data: logsData, error: logsError } = await supabase
+        .from('logs')
+        .select('*');
+
+    if (logsError) throw logsError;
+
+    const { data: sessionsData, error: sessionsError } = await supabase
+        .from('sessions')
+        .select('*');
+
+    if (sessionsError) throw sessionsError;
+
+    // Transform to DB structure
+    const students: Student[] = studentsData.map((s: any) => {
+        const studentLogs = logsData
+            .filter((l: any) => l.student_id === s.id)
+            .map((l: any) => ({
+                id: l.id,
+                timestamp: l.timestamp, // Assuming stored as number/bigint
+                action: l.action,
+                scoreChange: l.score_change,
+                reason: l.reason
+            }));
+        
+        return {
+            id: s.id,
+            name: s.name,
+            groupId: s.group_id,
+            score: s.score,
+            attendance: {
+                present: s.present,
+                absent: s.absent,
+                late: s.late
+            },
+            history: studentLogs
+        };
+    });
+
+    const sessions: Session[] = sessionsData.map((s: any) => ({
+        id: s.id,
+        timestamp: s.timestamp
+    }));
+
+    return { students, sessions };
 };
 
 export const saveDB = (data: DB) => {
-  fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2));
+    // No-op for Supabase implementation
 };

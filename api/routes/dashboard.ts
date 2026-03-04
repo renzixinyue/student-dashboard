@@ -1,170 +1,264 @@
 import { Router } from 'express';
-import { getDB, saveDB, resetDB, Student } from '../store.js';
+import { getDB, resetDB, Student } from '../store.js';
+import { supabase } from '../supabaseClient.js';
 
 const router = Router();
 
-router.post('/reset', (req, res) => {
-  const db = resetDB();
-  res.json({ success: true, message: 'System reset successful', db });
+router.post('/reset', async (req, res) => {
+  try {
+    const db = await resetDB();
+    res.json({ success: true, message: 'System reset successful', db });
+  } catch (e) {
+    res.status(500).json({ success: false, error: e });
+  }
 });
 
-router.get('/data', (req, res) => {
-  const db = getDB();
-  res.json(db);
+router.get('/data', async (req, res) => {
+  try {
+    const db = await getDB();
+    res.json(db);
+  } catch (e) {
+    res.status(500).json({ success: false, error: e });
+  }
 });
 
-router.post('/start-class', (req, res) => {
-  const db = getDB();
-  const timestamp = Date.now();
-  
-  // Create new session
-  const sessionId = timestamp.toString();
-  db.sessions.push({ id: sessionId, timestamp });
+router.post('/start-class', async (req, res) => {
+  try {
+    const db = await getDB();
+    const timestamp = Date.now();
+    
+    // Create new session
+    const sessionId = timestamp.toString();
+    const { error: sessionError } = await supabase
+      .from('sessions')
+      .insert({ id: sessionId, timestamp });
+    
+    if (sessionError) throw sessionError;
 
-  // Add 4 points to everyone for attendance
-  db.students.forEach(s => {
-    s.score += 4;
-    s.attendance.present += 1;
-    s.history.push({
-      id: Math.random().toString(36).substr(2, 9),
-      timestamp,
-      action: 'start_class',
-      scoreChange: 4,
-      reason: '开课签到'
-    });
-  });
+    // Prepare updates
+    const studentsPayload = db.students.map(s => ({
+        id: s.id,
+        name: s.name,
+        group_id: s.groupId,
+        score: s.score + 4,
+        present: s.attendance.present + 1,
+        absent: s.attendance.absent,
+        late: s.attendance.late
+    }));
 
-  saveDB(db);
-  res.json({ success: true, message: 'Class started', db });
+    const logsPayload = db.students.map(s => ({
+        student_id: s.id,
+        timestamp,
+        action: 'start_class',
+        score_change: 4,
+        reason: '开课签到'
+    }));
+
+    // Perform updates
+    const { error: updateError } = await supabase.from('students').upsert(studentsPayload);
+    if (updateError) throw updateError;
+
+    const { error: logError } = await supabase.from('logs').insert(logsPayload);
+    if (logError) throw logError;
+
+    const updatedDB = await getDB();
+    res.json({ success: true, message: 'Class started', db: updatedDB });
+  } catch (e) {
+    res.status(500).json({ success: false, error: e });
+  }
 });
 
-router.post('/update-score', (req, res) => {
-  const { target, id, points, reason } = req.body;
-  const db = getDB();
-  const timestamp = Date.now();
+router.post('/update-score', async (req, res) => {
+  try {
+    const { target, id, points, reason } = req.body;
+    const db = await getDB();
+    const timestamp = Date.now();
 
-  if (target === 'student') {
-    const student = db.students.find(s => s.id === id);
+    if (target === 'student') {
+      const student = db.students.find(s => s.id === id);
+      if (student) {
+        // Update student
+        const { error: updateError } = await supabase
+          .from('students')
+          .update({ score: student.score + points })
+          .eq('id', id);
+        
+        if (updateError) throw updateError;
+
+        // Add log
+        const { error: logError } = await supabase
+          .from('logs')
+          .insert({
+            student_id: id,
+            timestamp,
+            action: 'manual_update',
+            score_change: points,
+            reason: reason || 'Teacher adjustment'
+          });
+        
+        if (logError) throw logError;
+      }
+    } else if (target === 'group') {
+      const groupStudents = db.students.filter(s => s.groupId === Number(id));
+      if (groupStudents.length > 0) {
+        const pointsPerStudent = parseFloat((points / groupStudents.length).toFixed(2));
+        
+        // Prepare bulk updates
+        const studentsPayload = groupStudents.map(s => ({
+            id: s.id,
+            name: s.name,
+            group_id: s.groupId,
+            score: s.score + pointsPerStudent,
+            present: s.attendance.present,
+            absent: s.attendance.absent,
+            late: s.attendance.late
+        }));
+
+        const logsPayload = groupStudents.map(s => ({
+            student_id: s.id,
+            timestamp,
+            action: 'group_update',
+            score_change: pointsPerStudent,
+            reason: `Group adjustment: ${reason || ''}`
+        }));
+
+        const { error: updateError } = await supabase.from('students').upsert(studentsPayload);
+        if (updateError) throw updateError;
+
+        const { error: logError } = await supabase.from('logs').insert(logsPayload);
+        if (logError) throw logError;
+      }
+    }
+
+    const updatedDB = await getDB();
+    res.json({ success: true, db: updatedDB });
+  } catch (e) {
+    res.status(500).json({ success: false, error: e });
+  }
+});
+
+router.post('/attendance', async (req, res) => {
+  try {
+    const { studentId, status } = req.body; // status: 'absent' | 'late'
+    const db = await getDB();
+    const timestamp = Date.now();
+    const student = db.students.find(s => s.id === studentId);
+
     if (student) {
-      student.score += points;
-      student.history.push({
-        id: Math.random().toString(36).substr(2, 9),
-        timestamp,
-        action: 'manual_update',
-        scoreChange: points,
-        reason: reason || 'Teacher adjustment'
-      });
-    }
-  } else if (target === 'group') {
-    const groupStudents = db.students.filter(s => s.groupId === Number(id));
-    if (groupStudents.length > 0) {
-      const pointsPerStudent = parseFloat((points / groupStudents.length).toFixed(2));
-      groupStudents.forEach(s => {
-        s.score += pointsPerStudent;
-        s.history.push({
-          id: Math.random().toString(36).substr(2, 9),
-          timestamp,
-          action: 'group_update',
-          scoreChange: pointsPerStudent,
-          reason: `Group adjustment: ${reason || ''}`
+      if (status === 'absent') {
+        const newScore = student.score - 4;
+        const newAbsent = student.attendance.absent + 1;
+        const newPresent = Math.max(0, student.attendance.present - 1);
+
+        const { error: updateError } = await supabase
+            .from('students')
+            .update({ score: newScore, absent: newAbsent, present: newPresent })
+            .eq('id', studentId);
+        if (updateError) throw updateError;
+
+        const { error: logError } = await supabase.from('logs').insert({
+            student_id: studentId,
+            timestamp,
+            action: 'mark_absent',
+            score_change: -4,
+            reason: '旷课'
         });
-      });
+        if (logError) throw logError;
+
+      } else if (status === 'late') {
+        const newScore = student.score - 2;
+        const newLate = student.attendance.late + 1;
+
+        const { error: updateError } = await supabase
+            .from('students')
+            .update({ score: newScore, late: newLate })
+            .eq('id', studentId);
+        if (updateError) throw updateError;
+
+        const { error: logError } = await supabase.from('logs').insert({
+            student_id: studentId,
+            timestamp,
+            action: 'mark_late',
+            score_change: -2,
+            reason: '迟到/早退'
+        });
+        if (logError) throw logError;
+      }
     }
-  }
 
-  saveDB(db);
-  res.json({ success: true, db });
+    const updatedDB = await getDB();
+    res.json({ success: true, db: updatedDB });
+  } catch (e) {
+    res.status(500).json({ success: false, error: e });
+  }
 });
 
-router.post('/attendance', (req, res) => {
-  const { studentId, status } = req.body; // status: 'absent' | 'late'
-  const db = getDB();
-  const timestamp = Date.now();
-  const student = db.students.find(s => s.id === studentId);
+router.post('/task-complete', async (req, res) => {
+  try {
+    const { studentId } = req.body;
+    const db = await getDB();
+    const timestamp = Date.now();
+    const student = db.students.find(s => s.id === studentId);
 
-  if (student) {
-    if (status === 'absent') {
-      // Deduct the 4 points given at start, or just penalize?
-      // "Absence student separate deduction entry"
-      // Assuming this is called AFTER start class, so we revert the +4 (attendance) and maybe mark absent.
-      // But maybe "Absence" just means they get 0 for this class.
-      // If we already gave +4, we should subtract 4.
-      // Or maybe the user wants to deduct points explicitly.
-      // Let's implement: Deduct 4 points (revert attendance)
-      // And increment absent count.
-      // Wait, "旷课学生单独设置减分入口". Maybe it's a manual deduction.
-      // But typically absence means 0 score for that session.
-      // I will deduct 4 points (cancelling the automatic +4).
-      student.score -= 4;
-      student.attendance.absent += 1;
-      // Also decrement present count? Yes, if they were marked present automatically.
-      student.attendance.present = Math.max(0, student.attendance.present - 1);
-      
-      student.history.push({
-        id: Math.random().toString(36).substr(2, 9),
+    if (student) {
+      const { error: updateError } = await supabase
+        .from('students')
+        .update({ score: student.score + 4 })
+        .eq('id', studentId);
+      if (updateError) throw updateError;
+
+      const { error: logError } = await supabase.from('logs').insert({
+        student_id: studentId,
         timestamp,
-        action: 'mark_absent',
-        scoreChange: -4,
-        reason: '旷课'
+        action: 'task_complete',
+        score_change: 4,
+        reason: '实训任务完成'
       });
-    } else if (status === 'late') {
-      // "Late/Early leave -2"
-      // They are still present, but get -2 penalty.
-      student.score -= 2;
-      student.attendance.late += 1;
-      student.history.push({
-        id: Math.random().toString(36).substr(2, 9),
-        timestamp,
-        action: 'mark_late',
-        scoreChange: -2,
-        reason: '迟到/早退'
-      });
+      if (logError) throw logError;
     }
-  }
 
-  saveDB(db);
-  res.json({ success: true, db });
+    const updatedDB = await getDB();
+    res.json({ success: true, db: updatedDB });
+  } catch (e) {
+    res.status(500).json({ success: false, error: e });
+  }
 });
 
-router.post('/task-complete', (req, res) => {
-  const { studentId } = req.body;
-  const db = getDB();
-  const timestamp = Date.now();
-  const student = db.students.find(s => s.id === studentId);
+router.post('/task-complete-all', async (req, res) => {
+  try {
+    const { taskName } = req.body;
+    const db = await getDB();
+    const timestamp = Date.now();
 
-  if (student) {
-    student.score += 4;
-    student.history.push({
-      id: Math.random().toString(36).substr(2, 9),
-      timestamp,
-      action: 'task_complete',
-      scoreChange: 4,
-      reason: '实训任务完成'
-    });
+    const studentsPayload = db.students.map(s => ({
+        id: s.id,
+        name: s.name,
+        group_id: s.groupId,
+        score: s.score + 4,
+        present: s.attendance.present,
+        absent: s.attendance.absent,
+        late: s.attendance.late
+    }));
+
+    const logsPayload = db.students.map(s => ({
+        student_id: s.id,
+        timestamp,
+        action: 'task_complete',
+        score_change: 4,
+        reason: `实训任务: ${taskName}`
+    }));
+
+    const { error: updateError } = await supabase.from('students').upsert(studentsPayload);
+    if (updateError) throw updateError;
+
+    const { error: logError } = await supabase.from('logs').insert(logsPayload);
+    if (logError) throw logError;
+
+    const updatedDB = await getDB();
+    res.json({ success: true, message: 'All students completed task', db: updatedDB });
+  } catch (e) {
+    res.status(500).json({ success: false, error: e });
   }
-
-  saveDB(db);
-  res.json({ success: true, db });
-});
-
-router.post('/task-complete-all', (req, res) => {
-  const { taskName } = req.body;
-  const db = getDB();
-  const timestamp = Date.now();
-
-  db.students.forEach(student => {
-    student.score += 4;
-    student.history.push({
-      id: Math.random().toString(36).substr(2, 9),
-      timestamp,
-      action: 'task_complete',
-      scoreChange: 4,
-      reason: `实训任务: ${taskName}`
-    });
-  });
-
-  saveDB(db);
-  res.json({ success: true, message: 'All students completed task', db });
 });
 
 export default router;
