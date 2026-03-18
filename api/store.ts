@@ -174,13 +174,15 @@ export const getDB = async (): Promise<DB> => {
     // Fetch all data
     const { data: studentsData, error: studentsError } = await supabase
         .from('students')
-        .select('*');
+        .select('*')
+        .order('id', { ascending: true }); // Order by ID to keep consistent
     
     if (studentsError) throw studentsError;
 
     const { data: logsData, error: logsError } = await supabase
         .from('logs')
-        .select('*');
+        .select('*')
+        .order('timestamp', { ascending: true }); // Order logs by time
 
     if (logsError) throw logsError;
 
@@ -196,7 +198,7 @@ export const getDB = async (): Promise<DB> => {
             .filter((l: any) => l.student_id === s.id)
             .map((l: any) => ({
                 id: l.id,
-                timestamp: l.timestamp, // Assuming stored as number/bigint
+                timestamp: Number(l.timestamp), // Ensure number
                 action: l.action,
                 scoreChange: l.score_change,
                 reason: l.reason
@@ -218,7 +220,7 @@ export const getDB = async (): Promise<DB> => {
 
     const sessions: Session[] = sessionsData.map((s: any) => ({
         id: s.id,
-        timestamp: s.timestamp
+        timestamp: Number(s.timestamp)
     }));
 
     return { students, sessions };
