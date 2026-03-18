@@ -22,7 +22,7 @@
   ],
   "functions": {
     "api/index.ts": {
-      "includeFiles": "api/data/db.json"
+      "includeFiles": "src/data/**"
     }
   }
 }
