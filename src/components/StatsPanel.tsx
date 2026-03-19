@@ -1,5 +1,5 @@
 import React from 'react';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, LabelList, Legend } from 'recharts';
 import { DB } from '../store/useDashboardStore';
 import { Users, CheckCircle, Clock, AlertTriangle } from 'lucide-react';
 
@@ -13,7 +13,17 @@ export const StatsPanel: React.FC<StatsPanelProps> = ({ data }) => {
     const groupId = i + 1;
     const students = data.students.filter(s => s.groupId === groupId);
     const score = students.reduce((sum, s) => sum + s.score, 0);
-    return { name: `第${groupId}组`, score, groupId };
+    
+    // Create an object with individual student scores for stacked bar chart
+    const groupData: any = { name: `第${groupId}组`, totalScore: Number(score.toFixed(1)), groupId };
+    
+    // We only take up to 6 students per group for visualization clarity
+    students.slice(0, 6).forEach((student, index) => {
+      groupData[`student_${index}`] = Number(student.score.toFixed(1));
+      groupData[`student_name_${index}`] = student.name;
+    });
+    
+    return groupData;
   });
 
   const totalStudents = data.students.length;
@@ -69,20 +79,43 @@ export const StatsPanel: React.FC<StatsPanelProps> = ({ data }) => {
 
       {/* Chart */}
       <div className="flex-1 bg-slate-800/50 p-4 rounded-xl border border-slate-700 min-h-[300px]">
-        <h3 className="text-lg font-bold mb-4 text-slate-300">各组总分统计</h3>
+        <h3 className="text-lg font-bold mb-4 text-slate-300">各组总分及成员贡献统计</h3>
         <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={groupScores}>
+          <BarChart data={groupScores} margin={{ top: 20, right: 0, left: 0, bottom: 0 }}>
             <XAxis dataKey="name" stroke="#94a3b8" tick={{ fill: '#94a3b8' }} />
             <YAxis stroke="#94a3b8" tick={{ fill: '#94a3b8' }} />
             <Tooltip 
               contentStyle={{ backgroundColor: '#1e293b', borderColor: '#334155', color: '#fff' }}
               cursor={{ fill: 'rgba(255,255,255,0.05)' }}
+              formatter={(value: number, name: string, props: any) => {
+                // If it's a student score, use the student's name for the label
+                if (name.startsWith('student_') && !name.startsWith('student_name_')) {
+                  const index = name.split('_')[1];
+                  const studentName = props.payload[`student_name_${index}`];
+                  return [value, studentName || name];
+                }
+                return [value, name];
+              }}
             />
-            <Bar dataKey="score" radius={[4, 4, 0, 0]}>
-              {groupScores.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />
-              ))}
+            {/* Generate up to 6 stacked bars for students in a group */}
+            {Array.from({ length: 6 }).map((_, index) => (
+              <Bar 
+                key={`student_${index}`} 
+                dataKey={`student_${index}`} 
+                stackId="a" 
+                fill={colors[index % colors.length]}
+                radius={index === 5 ? [4, 4, 0, 0] : [0, 0, 0, 0]} // only top radius for the last potential item, actually dynamic is harder, let's keep it simple
+              >
+                {/* Only add LabelList to the top-most visible bar to show total score, 
+                    we'll use a hack by adding a transparent bar for the total label */}
+              </Bar>
+            ))}
+            
+            {/* Transparent bar just for showing the total label at the top */}
+            <Bar dataKey="totalScore" fill="transparent" stackId="b" barSize={0}>
+               <LabelList dataKey="totalScore" position="top" fill="#fff" fontSize={14} fontWeight="bold" formatter={(value: number) => value > 0 ? value : ''} />
             </Bar>
+
           </BarChart>
         </ResponsiveContainer>
       </div>
