@@ -4,9 +4,9 @@
       "id": "2407020329",
       "name": "张博涵",
       "groupId": 1,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -17,6 +17,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "kv5w4ybon",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "fw2dtqsb8",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "e3yvygoyo",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "qng955sdn",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "l61l1ddyt",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "236ixz30s",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "6fxjr9k31",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "b2ypbk6p0",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "8ojldo3e1",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "1dwgsmgh6",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "1xlvfncar",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "35buwxmdx",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "eebm3rjcl",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "2svv4egi7",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -24,9 +122,9 @@
       "id": "2403020124",
       "name": "温博宇",
       "groupId": 2,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -37,6 +135,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "1fx4pg9vu",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "xg5oi92o4",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ohqysln4l",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "wnjye9ncl",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "2mq2ivlb5",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "mh3tf2lfh",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "wj71fr28g",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "0tub06l13",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "02ojmq8jq",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "80tgi26s1",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "xs1qmmapp",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "sc56jqsda",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "ibmy19kkx",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "1r5ie6qzp",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -44,9 +240,9 @@
       "id": "2407020304",
       "name": "郭浩远",
       "groupId": 3,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -57,6 +253,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "arcwkscsm",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "uwewi3pw0",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "b3gu7t5jn",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "j2muu5uyw",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rvv488sa3",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ou9keebkk",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "r5sfgzutm",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "qdilx9arr",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "4cycunei1",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "aa14dop3t",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "7eu4stg65",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ru2pdr4yq",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "d5iy411be",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "hni209fru",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -64,9 +358,9 @@
       "id": "2407020301",
       "name": "陈博轩",
       "groupId": 4,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -77,6 +371,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "x1bwm2gcy",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "hqbowwlze",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "h0nk95zr3",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "si4wv0xmp",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "hbfhtn13p",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "yovvi1tzg",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "5pv5bwi3i",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "r66exho48",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "um9y6lvqb",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "wk6847gjx",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "upzrvx3fs",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "nw73axncd",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "zq02m17aw",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "argu0qgyi",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -84,9 +476,9 @@
       "id": "2404010103",
       "name": "白宇轩",
       "groupId": 5,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -97,6 +489,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "7ci459emn",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "966eeptr0",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "x4egjf8mr",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ngwj7chlx",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dmfguj83d",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "inoldc4mb",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "4zmbbax28",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "xmg9gvcdp",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "r9gomzv0l",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "bmo56h1gp",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "7m8ktxg8i",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "gypbwd4nl",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "krtvyn6l6",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "cgm4fnvaq",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -104,9 +594,9 @@
       "id": "2407020327",
       "name": "杨宏伟",
       "groupId": 6,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -117,6 +607,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "202lb9jgg",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "2thtzq3cn",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "zxhj7mob5",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "y44g3us24",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "nc3rybxng",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "apmmxldkn",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "n7lir4qgz",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "vumbemvl1",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "sf5q581w9",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "4kyemy3f8",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "lgoexqezy",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "to4s4fcme",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "emqhqz3p8",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "53hhue89t",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -124,9 +712,9 @@
       "id": "2407020307",
       "name": "刘映棋",
       "groupId": 1,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -137,6 +725,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "c9x99abeo",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "kxjb0lvgw",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "xdzyzon9u",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "tgwb1qxe0",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "sdkm9sgov",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "bjkss68nv",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "vtrd9nzvs",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "q32mt6jkg",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "5g9xjc6rh",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "y761c0dzi",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ohs9xizqr",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "0sc5cx9z3",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "wmzzcfr8o",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "f0ve0wxep",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -144,9 +830,9 @@
       "id": "2407020323",
       "name": "郗响洋",
       "groupId": 2,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -157,6 +843,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "elqkxonar",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "x7lnxhlue",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "afmu57q83",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "q6r1rktk2",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "3ipgwiz9h",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "i4cxanfac",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "86ftw01ue",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "fbbyjhxqi",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "1ym8llg65",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "04t4e792p",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ek6t32okn",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ekic10sgn",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "wz5jzah17",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "p7xj5azbs",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -164,9 +948,9 @@
       "id": "2407020313",
       "name": "乔冉阳",
       "groupId": 3,
-      "score": 4,
+      "score": 58,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -177,6 +961,111 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "310te24q4",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "5bceytbw3",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ooeasv4t2",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "xfsoj1gbx",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "c7j0rxk2s",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "vsb6ic4rv",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "813r61ru7",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dq04ftlcs",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "tv5hzb4m5",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "e84a3h8xc",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "80vmneh00",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "m0rae8zhv",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "gxb5xw3gm",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "7eg5v09tc",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
+        },
+        {
+          "id": "x16f5z4bz",
+          "timestamp": 1773930757764,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
         }
       ]
     },
@@ -184,9 +1073,9 @@
       "id": "2407020310",
       "name": "栾添",
       "groupId": 4,
-      "score": 4,
+      "score": 62,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -197,6 +1086,111 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "yf6w9lkk0",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "5ugj0c72s",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "h9gmxltnc",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "n34j9r688",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "0qh8rhnrl",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "mqb3wb85h",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "hlm59s9x9",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "nx2fkspbk",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "0isouh0bk",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ud4neaqbt",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "cxxkvaf9s",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "8y71psdmn",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "zm35jtyqo",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "c0uuom7zb",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
+        },
+        {
+          "id": "tof8s95p4",
+          "timestamp": 1773930496681,
+          "action": "manual_update",
+          "scoreChange": 2,
+          "reason": "奖励加分"
         }
       ]
     },
@@ -204,9 +1198,9 @@
       "id": "2407020314",
       "name": "乔志轩",
       "groupId": 5,
-      "score": 4,
+      "score": 58,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -217,6 +1211,111 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "xgdmvucv5",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rrfan7t3y",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "knt1p6cct",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "lpt2jzyuz",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "qpguzp1od",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "g4murodz3",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "gh5iv8eig",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "or2glgyd9",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "7jwdf3y1n",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "mjpi40u7y",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "z6stn56l0",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "wlhdrm3n0",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "45si9ve4c",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "ik7jpuvjf",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
+        },
+        {
+          "id": "y67mmiugu",
+          "timestamp": 1773930855343,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
         }
       ]
     },
@@ -224,9 +1323,9 @@
       "id": "2407020324",
       "name": "许雄峰",
       "groupId": 6,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -237,6 +1336,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "c0okq2inp",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rysj38t4f",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "bskok51kx",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ejb67gjkv",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "kwzlwerqo",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "j4wf98r77",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "vzemmkz3o",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "3st5kvae6",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "hj8vkhyg5",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "vu9u99jkw",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "5a9beqrwo",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "2htpnopkd",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "vyqoo9hf3",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "ggrm6x3p6",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -244,9 +1441,9 @@
       "id": "2407020308",
       "name": "芦兴康",
       "groupId": 1,
-      "score": 4,
+      "score": 58,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -257,6 +1454,111 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "jqs67nbz2",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "upnyjwkae",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "elb9smzwa",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "uue7bpi03",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rbujwii2w",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "t8yfdln9r",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "tkwu9k7bw",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "xfi4g7ql4",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "x1qrlwl6p",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "cu7k8u4mj",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "mv6kytye4",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "jksapbwjh",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "mthq9rjv",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "5f7g3ohlx",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
+        },
+        {
+          "id": "m7acd6jni",
+          "timestamp": 1773930769307,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
         }
       ]
     },
@@ -264,9 +1566,9 @@
       "id": "2401040126",
       "name": "邬照宇",
       "groupId": 2,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -277,6 +1579,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "whxiyxh43",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "drsi0duuv",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "fcd3vj38f",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "elvdnipbm",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "0iskqkk9w",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "lrptjyo9l",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "kjx5ovhwu",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "pb8wg7c7q",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "8ej0jr7w4",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "n5kp2zt60",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "y6b0gp0p1",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "l4hb85ho8",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "wfdn4dzr2",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "np8s7gf74",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -284,9 +1684,9 @@
       "id": "2407020326",
       "name": "阎佳华",
       "groupId": 3,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -297,6 +1697,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "1n838uxl1",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dp91kj4tk",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "9aewa1n4w",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "kyr5of8wj",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "14urvjvo3",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "cdfip945w",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ilgd43vxf",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ewljlrr5v",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "5cjsncd67",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "qcmzi6yuv",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "42qmjxwek",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "bsw14v32h",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "z7711la2q",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "n0m58uscm",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -304,9 +1802,9 @@
       "id": "2407020316",
       "name": "秦兴宇",
       "groupId": 4,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -317,6 +1815,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "iwljbzwxk",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "iko549gbt",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "61vco5z05",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "81an13uxd",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "a7homhsxf",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "kueqd3sls",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "pk3i9dh3z",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "90nho9szf",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "0snkwkrhk",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "e6g7mw6d9",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dsi69kumv",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "qdx3f7zo3",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "ibfp8nm56",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "gri69962y",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -324,9 +1920,9 @@
       "id": "2407020334",
       "name": "朱旭彬",
       "groupId": 5,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -337,6 +1933,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "0q2f7khdu",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "8wqr0cihf",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "r9lxkt54q",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ctqyqt2ue",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "fqplm4t91",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "tjz21yxgl",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "e9l0ziwvt",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "d7amfybhf",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "5d1xzvwdh",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "olf04l26c",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "x48z9f0rw",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "668ytjkvo",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "lkwslx8cm",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "m0k4k8wj2",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -344,9 +2038,9 @@
       "id": "2407020330",
       "name": "张浩东",
       "groupId": 6,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -357,6 +2051,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "8tpydbces",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "m35sxtv8h",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "tzpnp2nj2",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dz0hvc8ku",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ffyzxsiyo",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "l5szijk2o",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ryiwvtnjl",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "s6hra3kqc",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "g3zxgo093",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dn34rpd93",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rieg5luco",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "9qwnaowse",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "mpz5t01wj",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "xv37echdi",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -364,9 +2156,9 @@
       "id": "2407020333",
       "name": "赵青松",
       "groupId": 1,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -377,6 +2169,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "r53c1fwe2",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ra0gppd9n",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "jqhlv0lo4",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rd3yyjwhi",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "8579ttnni",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rwoev98h4",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "78fvenh3d",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "cd5t9946w",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "i134ydw03",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "hliys7tz0",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "m2ar6ulh4",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ab2t1o6iu",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "y91vjnxoy",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "vjk2zim6q",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -384,9 +2274,9 @@
       "id": "2407020309",
       "name": "鲁子桢",
       "groupId": 2,
-      "score": 4,
+      "score": 56,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -397,6 +2287,111 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "cg9jklze9",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "1r2gngta4",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "2eywdr89z",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "k93akm5e1",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "uy0aheu5a",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dnaysip91",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "zlcv04107",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "samrty6ww",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "9z4ea2rc5",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ld3nq63s5",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ghmgjsfkt",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "229bqybm4",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "fsksbyzi3",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "2yfushjas",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
+        },
+        {
+          "id": "kmahvlnzm",
+          "timestamp": 1773930426803,
+          "action": "manual_update",
+          "scoreChange": -4,
+          "reason": "违纪扣分"
         }
       ]
     },
@@ -404,9 +2399,9 @@
       "id": "2407020325",
       "name": "薛凯勋",
       "groupId": 3,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -417,6 +2412,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "oirxmek6k",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "5it3dxiq7",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "9ari3wm3j",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "yy90r4iyx",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "omeexo0o7",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "d4wonp5fe",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ifi1pw2t4",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "5wsssozn2",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ja9hhj9ai",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "su2eswqqu",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "4imdv70eo",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "obsl5n6ky",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "m9q5bunau",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "kz2lsaq6q",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -424,9 +2517,9 @@
       "id": "2407020302",
       "name": "初玉龙",
       "groupId": 4,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -437,6 +2530,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "5kwuucvlo",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "i8jlmf9fn",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "2002pxjs8",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "0me30jda7",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "xbfldc4te",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "62arb8bij",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "v8d0u45v3",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ctveh4dau",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "g1qtgd03b",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "i4uq2byos",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "w86zfckdy",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "btpt9whp6",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "9yra4zc96",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "y4x6n0p0j",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -444,9 +2635,9 @@
       "id": "2407020306",
       "name": "菅晋源",
       "groupId": 5,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -457,6 +2648,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "544kh8yl0",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "bnognbzsx",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "2ocwbnrm2",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "m5enva7jh",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "x7lcdarf1",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ip3tvz3ht",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ry192kb53",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "fl26cce49",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "pkqd4efnu",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "iul1v6ajq",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "jaludw27m",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "uw3mezxwh",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "8oc94w2y6",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "e2pnvnnv6",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -464,9 +2753,9 @@
       "id": "2407020319",
       "name": "王冰洋",
       "groupId": 6,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -477,6 +2766,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "rba68rkf6",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "8lrszm5lz",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "pi121hb7e",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "qas3k9zjj",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "y4ngy0kb1",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "8jquyf72c",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "m7662q6aq",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "a7d7osrmz",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "f29mze80x",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "7w59zskt7",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ukysnlw4q",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "kjq9pgdvc",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "n1nub5vkd",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "sslg3bc32",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -484,9 +2871,9 @@
       "id": "2407020321",
       "name": "王柯皓",
       "groupId": 1,
-      "score": 4,
+      "score": 58,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -497,6 +2884,111 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "obdnmi3xg",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "gtidwsxvz",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "fkj03gz3u",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "1sndbyzla",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dvp9q4ao0",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "jkfw54218",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "l4ki3u0yb",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "d34l5n1z1",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ssia3v3bx",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "2vakbir62",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "sb0s1vxpf",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "g99djc9xv",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "4e0vaf5kz",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "h31hzjzqf",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
+        },
+        {
+          "id": "zc99p99mm",
+          "timestamp": 1773930833649,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
         }
       ]
     },
@@ -504,9 +2996,9 @@
       "id": "2407020315",
       "name": "秦朔",
       "groupId": 2,
-      "score": 4,
+      "score": 50,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -517,6 +3009,132 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "kq866ghyd",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "k33f4e4dt",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "uwu2v33rk",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "9j5z7f9as",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "j03aknyux",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "o78n4z3ri",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "zzi8vb8qx",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "1b6vehzws",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ihpo4c4wb",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "bwimvcmlw",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "upqznwe6s",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "k2b2i5g8d",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "cvr72cj3i",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "dojwjm7jo",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
+        },
+        {
+          "id": "91ltoecj8",
+          "timestamp": 1773930518016,
+          "action": "manual_update",
+          "scoreChange": -4,
+          "reason": "违纪扣分"
+        },
+        {
+          "id": "ug59dyfsw",
+          "timestamp": 1773930702439,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
+        },
+        {
+          "id": "m2cz314a0",
+          "timestamp": 1773930728653,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
+        },
+        {
+          "id": "9yk4b9fck",
+          "timestamp": 1773930812053,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
         }
       ]
     },
@@ -524,9 +3142,9 @@
       "id": "2407020328",
       "name": "张宝中",
       "groupId": 3,
-      "score": 3,
+      "score": 55,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -544,6 +3162,118 @@
           "action": "manual_update",
           "scoreChange": -1,
           "reason": "违纪扣分"
+        },
+        {
+          "id": "khxwt1r2m",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rnvkr0d8s",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "b3qo3xdvr",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "7wawo07ds",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "gsyg73zhu",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "wvuxn4j8d",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "l2hqpgsrz",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "4zvf7voor",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "g06i9nok2",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dlt6smsev",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "8rxw97xsw",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ulx0by3iw",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "0f6ugk15y",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "dkpz2lvnz",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
+        },
+        {
+          "id": "agfxdke23",
+          "timestamp": 1773930469827,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
+        },
+        {
+          "id": "44bow1s7t",
+          "timestamp": 1773930621937,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
         }
       ]
     },
@@ -551,9 +3281,9 @@
       "id": "2407020311",
       "name": "马鹤宁",
       "groupId": 4,
-      "score": 3,
+      "score": 55,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -571,6 +3301,118 @@
           "action": "manual_update",
           "scoreChange": -1,
           "reason": "违纪扣分"
+        },
+        {
+          "id": "90p89y6ps",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "s1h2vydqn",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "y3vrwtuyr",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dza8z1rz4",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "6i1sw389l",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "z0lbzowkq",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "tagpaa52s",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "omkjfha22",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "9ojeg4qfe",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "fe2tdqe8r",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "bauvuu97r",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ntdu27ych",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "xef0cjlow",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "a0a4advv1",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
+        },
+        {
+          "id": "tfpydtip0",
+          "timestamp": 1773930460487,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
+        },
+        {
+          "id": "7c0c62wl0",
+          "timestamp": 1773930585004,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
         }
       ]
     },
@@ -578,9 +3420,9 @@
       "id": "2407020320",
       "name": "王超",
       "groupId": 5,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -591,6 +3433,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "a1p07t4xx",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "3xknczuj3",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "wtd3arxb3",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "1qfrauanq",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "53v0uqdup",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "wu6204qg5",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "0f0v0lnx6",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "mrcw44h15",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rr11morqs",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "xj07w5fq4",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "6b2irm1pv",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "m1xg3crdy",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "coa5i1yhq",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "0t35jm44b",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -598,9 +3538,9 @@
       "id": "2407020303",
       "name": "高嘉禹",
       "groupId": 6,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -611,6 +3551,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "pq8z2ai6h",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "1yuhq0mgb",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "frpk4e9p5",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "7cfd6vz02",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "b593z68hf",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "zwbj0b08t",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ym6z849f7",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "jim2byxux",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "iywifaco7",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dlge88ing",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dgtq3zwxl",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "l8qikb1nd",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "lnfxki3z5",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "uviw9m6o8",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -618,9 +3656,9 @@
       "id": "2407020322",
       "name": "吴嘉宇",
       "groupId": 1,
-      "score": 3,
+      "score": 55,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -638,6 +3676,118 @@
           "action": "manual_update",
           "scoreChange": -1,
           "reason": "违纪扣分"
+        },
+        {
+          "id": "m2t8hghzc",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "imyh9t51h",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "d3g8vxqxc",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "0ew2t8z8w",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ofu68mpw7",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "3kgpzq6z0",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "kv8te3h68",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ophuayrrg",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "um6c7aba7",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "qdhnqlmkf",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "xp71hgetx",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "dfnk1c6q7",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "wfeqgpywp",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "wlo6fmyv4",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
+        },
+        {
+          "id": "y9qbnkrs3",
+          "timestamp": 1773930533789,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
+        },
+        {
+          "id": "czgfgwq8o",
+          "timestamp": 1773930577139,
+          "action": "manual_update",
+          "scoreChange": -2,
+          "reason": "违纪扣分"
         }
       ]
     },
@@ -645,9 +3795,9 @@
       "id": "2407020331",
       "name": "张凌瑄",
       "groupId": 2,
-      "score": 4,
+      "score": 62,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -658,6 +3808,111 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "12k8033a8",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "blv1z1pj1",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "78vdchp1n",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "h45sishs7",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "i9j5lzvwk",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rqyafapbp",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "iknqktl6w",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "8haho7zk0",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "yt0ybdvvz",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "f3znaxl3d",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "cory2dh61",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "5ukfyvo42",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "5p0e4z80s",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "jhbdocqlt",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
+        },
+        {
+          "id": "o2lenta8f",
+          "timestamp": 1773930481124,
+          "action": "manual_update",
+          "scoreChange": 2,
+          "reason": "奖励加分"
         }
       ]
     },
@@ -665,9 +3920,9 @@
       "id": "2407020318",
       "name": "田绍暄",
       "groupId": 3,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -678,6 +3933,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "pzcunyrlw",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "0woxjtg5y",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "mgvxrffm3",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "jlhkf3ju4",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "93xkmsznu",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "shvlde77y",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "74n8z1tkv",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "43tfzbl6k",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "gs1otltgl",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "s2r42c01h",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "6v3wwrcu7",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "wqtlfwjch",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "vsogg1bgp",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "i5dpulxmg",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -685,9 +4038,9 @@
       "id": "2401020112",
       "name": "高舸扬",
       "groupId": 4,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -698,6 +4051,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "oqwta7khl",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "lqbiat1gy",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "mu2dncb0q",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "yblgieoo8",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "f0fpazk8b",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "det06z71t",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "6pqtvvzai",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rxxlkys14",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "jbovbgyd3",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "crms1tgrd",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "853baagts",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "yinu2pk4z",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "1h6iabd3c",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "1qrurinuw",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -705,9 +4156,9 @@
       "id": "9999000001",
       "name": "虚拟生01",
       "groupId": 5,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -718,6 +4169,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "t06fobn0w",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "z3nhsnrsw",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "rhmprr0ff",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "qq5jyj64k",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "6x6dg7rzt",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "bmk3z3afe",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "scfjk69x5",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "2f6mzxt71",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "v6m16jufl",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "8pgnx897u",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "p7d49kbfl",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "q3hald5y2",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "mnt5r0ail",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "8c5j32pze",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     },
@@ -725,9 +4274,9 @@
       "id": "9999000002",
       "name": "虚拟生02",
       "groupId": 6,
-      "score": 4,
+      "score": 60,
       "attendance": {
-        "present": 1,
+        "present": 12,
         "absent": 0,
         "late": 0
       },
@@ -738,6 +4287,104 @@
           "action": "start_class",
           "scoreChange": 4,
           "reason": "开课签到"
+        },
+        {
+          "id": "aky4h4coh",
+          "timestamp": 1773930142537,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "ul2otfvc1",
+          "timestamp": 1773930207677,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "2oph8zer9",
+          "timestamp": 1773930209460,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "wo0mqtlm8",
+          "timestamp": 1773930210483,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "c4golnwfj",
+          "timestamp": 1773930211578,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "u73y139cn",
+          "timestamp": 1773930212753,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "o3n4in2vk",
+          "timestamp": 1773930218868,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "p7wo6y79o",
+          "timestamp": 1773930220845,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "i6k2cofk1",
+          "timestamp": 1773930222008,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "byhqavt6c",
+          "timestamp": 1773930223205,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "eh4m4rkoo",
+          "timestamp": 1773930225306,
+          "action": "start_class",
+          "scoreChange": 4,
+          "reason": "开课签到"
+        },
+        {
+          "id": "retfyxzvp",
+          "timestamp": 1773930268902,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属材料及热处理"
+        },
+        {
+          "id": "qvn7g6sap",
+          "timestamp": 1773930274795,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 金属热加工工艺"
+        },
+        {
+          "id": "q9bpx43cp",
+          "timestamp": 1773930279914,
+          "action": "task_complete",
+          "scoreChange": 4,
+          "reason": "实训任务: 零件测绘"
         }
       ]
     }
@@ -746,6 +4393,50 @@
     {
       "id": "1772502921824",
       "timestamp": 1772502921824
+    },
+    {
+      "id": "1773930142537",
+      "timestamp": 1773930142537
+    },
+    {
+      "id": "1773930207677",
+      "timestamp": 1773930207677
+    },
+    {
+      "id": "1773930209460",
+      "timestamp": 1773930209460
+    },
+    {
+      "id": "1773930210483",
+      "timestamp": 1773930210483
+    },
+    {
+      "id": "1773930211578",
+      "timestamp": 1773930211578
+    },
+    {
+      "id": "1773930212753",
+      "timestamp": 1773930212753
+    },
+    {
+      "id": "1773930218868",
+      "timestamp": 1773930218868
+    },
+    {
+      "id": "1773930220845",
+      "timestamp": 1773930220845
+    },
+    {
+      "id": "1773930222008",
+      "timestamp": 1773930222008
+    },
+    {
+      "id": "1773930223205",
+      "timestamp": 1773930223205
+    },
+    {
+      "id": "1773930225306",
+      "timestamp": 1773930225306
     }
   ]
 }

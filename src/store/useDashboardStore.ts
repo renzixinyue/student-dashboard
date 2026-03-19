@@ -43,7 +43,7 @@ interface DashboardState {
   resetSystem: () => Promise<void>;
 }
 
-const API_URL = import.meta.env.VITE_API_URL || '/api/dashboard';
+const API_URL = 'http://localhost:3001/api/dashboard';
 
 export const useDashboardStore = create<DashboardState>((set, get) => ({
   data: null,
@@ -57,7 +57,6 @@ export const useDashboardStore = create<DashboardState>((set, get) => ({
       set({ data });
     } catch (e) {
       console.error("Failed to fetch data:", e);
-      // Initialize with empty data structure on error to avoid infinite loading
       set({ data: { students: [], sessions: [] } });
     } finally {
       set({ loading: false });
@@ -66,16 +65,10 @@ export const useDashboardStore = create<DashboardState>((set, get) => ({
   startClass: async () => {
     try {
       const res = await fetch(`${API_URL}/start-class`, { method: 'POST' });
-      if (!res.ok) throw new Error('Network response was not ok');
       const result = await res.json();
-      if (result.success && result.db) {
-        set({ data: result.db });
-      } else {
-        get().fetchData();
-      }
-    } catch (e) {
-      console.error("Failed to start class:", e);
-    }
+      if (result.success && result.db) set({ data: result.db });
+      else get().fetchData();
+    } catch (e) { console.error(e); }
   },
   updateScore: async (target, id, points, reason) => {
     try {
@@ -84,16 +77,10 @@ export const useDashboardStore = create<DashboardState>((set, get) => ({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ target, id, points, reason })
       });
-      if (!res.ok) throw new Error('Network response was not ok');
       const result = await res.json();
-      if (result.success && result.db) {
-        set({ data: result.db });
-      } else {
-        get().fetchData();
-      }
-    } catch (e) {
-      console.error("Failed to update score:", e);
-    }
+      if (result.success && result.db) set({ data: result.db });
+      else get().fetchData();
+    } catch (e) { console.error(e); }
   },
   markAttendance: async (studentId, status) => {
     try {
@@ -102,16 +89,10 @@ export const useDashboardStore = create<DashboardState>((set, get) => ({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ studentId, status })
       });
-      if (!res.ok) throw new Error('Network response was not ok');
       const result = await res.json();
-      if (result.success && result.db) {
-        set({ data: result.db });
-      } else {
-        get().fetchData();
-      }
-    } catch (e) {
-      console.error("Failed to mark attendance:", e);
-    }
+      if (result.success && result.db) set({ data: result.db });
+      else get().fetchData();
+    } catch (e) { console.error(e); }
   },
   completeTask: async (studentId) => {
     try {
@@ -120,16 +101,10 @@ export const useDashboardStore = create<DashboardState>((set, get) => ({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ studentId })
       });
-      if (!res.ok) throw new Error('Network response was not ok');
       const result = await res.json();
-      if (result.success && result.db) {
-        set({ data: result.db });
-      } else {
-        get().fetchData();
-      }
-    } catch (e) {
-      console.error("Failed to complete task:", e);
-    }
+      if (result.success && result.db) set({ data: result.db });
+      else get().fetchData();
+    } catch (e) { console.error(e); }
   },
   completeTaskAll: async (taskName) => {
     try {
@@ -138,29 +113,17 @@ export const useDashboardStore = create<DashboardState>((set, get) => ({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ taskName })
       });
-      if (!res.ok) throw new Error('Network response was not ok');
       const result = await res.json();
-      if (result.success && result.db) {
-        set({ data: result.db });
-      } else {
-        get().fetchData();
-      }
-    } catch (e) {
-      console.error("Failed to complete task for all:", e);
-    }
+      if (result.success && result.db) set({ data: result.db });
+      else get().fetchData();
+    } catch (e) { console.error(e); }
   },
   resetSystem: async () => {
     try {
       const res = await fetch(`${API_URL}/reset`, { method: 'POST' });
-      if (!res.ok) throw new Error('Network response was not ok');
       const result = await res.json();
-      if (result.success && result.db) {
-        set({ data: result.db });
-      } else {
-        get().fetchData();
-      }
-    } catch (e) {
-      console.error("Failed to reset system:", e);
-    }
+      if (result.success && result.db) set({ data: result.db });
+      else get().fetchData();
+    } catch (e) { console.error(e); }
   }
 }));
