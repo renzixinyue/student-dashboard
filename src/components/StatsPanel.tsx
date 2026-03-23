@@ -9,7 +9,7 @@ interface StatsPanelProps {
 
 export const StatsPanel: React.FC<StatsPanelProps> = ({ data }) => {
   // Process data for charts
-  const groupScores = Array.from({ length: 6 }, (_, i) => {
+  let groupScores = Array.from({ length: 6 }, (_, i) => {
     const groupId = i + 1;
     const students = data.students.filter(s => s.groupId === groupId);
     const score = students.reduce((sum, s) => sum + s.score, 0);
@@ -24,6 +24,13 @@ export const StatsPanel: React.FC<StatsPanelProps> = ({ data }) => {
     });
     
     return groupData;
+  });
+
+  // Calculate ranks
+  const sortedScores = [...groupScores].sort((a, b) => b.totalScore - a.totalScore);
+  groupScores = groupScores.map(group => {
+    const rank = sortedScores.findIndex(g => g.groupId === group.groupId) + 1;
+    return { ...group, rank };
   });
 
   const totalStudents = data.students.length;
@@ -113,7 +120,19 @@ export const StatsPanel: React.FC<StatsPanelProps> = ({ data }) => {
             
             {/* Transparent bar just for showing the total label at the top */}
             <Bar dataKey="totalScore" fill="transparent" stackId="b" barSize={0}>
-               <LabelList dataKey="totalScore" position="top" fill="#fff" fontSize={14} fontWeight="bold" formatter={(value: number) => value > 0 ? value : ''} />
+               <LabelList 
+                 dataKey="totalScore" 
+                 position="top" 
+                 fill="#fff" 
+                 fontSize={14} 
+                 fontWeight="bold" 
+                 formatter={(value: number, entry: any) => {
+                   if (value > 0) {
+                     return `${value} (第${entry.payload.rank}名)`;
+                   }
+                   return '';
+                 }} 
+               />
             </Bar>
 
           </BarChart>
