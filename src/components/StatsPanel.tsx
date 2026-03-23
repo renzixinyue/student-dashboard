@@ -22,6 +22,9 @@ export const StatsPanel: React.FC<StatsPanelProps> = ({ data }) => {
       groupData[`student_${index}`] = Number(student.score.toFixed(1));
       groupData[`student_name_${index}`] = student.name;
     });
+
+    // Add a tiny dummy value to hold the top label
+    groupData.labelHolder = 0.0001;
     
     return groupData;
   });
@@ -111,15 +114,14 @@ export const StatsPanel: React.FC<StatsPanelProps> = ({ data }) => {
                 dataKey={`student_${index}`} 
                 stackId="a" 
                 fill={colors[index % colors.length]}
-                radius={index === 5 ? [4, 4, 0, 0] : [0, 0, 0, 0]} // only top radius for the last potential item, actually dynamic is harder, let's keep it simple
+                radius={[0, 0, 0, 0]} 
+                isAnimationActive={true}
               >
-                {/* Only add LabelList to the top-most visible bar to show total score, 
-                    we'll use a hack by adding a transparent bar for the total label */}
               </Bar>
             ))}
             
-            {/* Transparent bar just for showing the total label at the top */}
-            <Bar dataKey="totalScore" fill="transparent" stackId="b" barSize={0}>
+            {/* The invisible top bar holding the label */}
+            <Bar dataKey="labelHolder" fill="transparent" stackId="a" radius={[4, 4, 0, 0]} isAnimationActive={false}>
                <LabelList 
                  dataKey="totalScore" 
                  position="top" 
